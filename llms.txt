@@ -1,0 +1,37 @@
+# Deepanshu Kapoor
+
+> Freelance AI, full-stack and security engineer with 13+ years of experience.
+> Builds and secures web applications, integrates AI/LLMs (including self-hosted
+> models and RAG), removes website malware, and builds frontends for firewall and
+> IDS/IPS security products. Acknowledged in the security researcher hall of fame
+> by Microsoft, eBay, Red Hat and Sellfy. Works with clients worldwide; replies
+> within an hour. Site: https://kapoordeepanshu.github.io/
+
+## Services
+- AI-integrated applications: OpenAI, Anthropic Claude, Google Gemini, or self-hosted open-weight models via Ollama/vLLM; retrieval-augmented generation (RAG), embeddings, FastAPI backends.
+- Full-stack web development: React, Angular, Next.js, Node.js, PHP, Laravel — architecture through deployment.
+- Secure web development: OWASP Top 10, input validation, authentication, access control, pre-launch security review.
+- Website malware removal & hardening: clean compromised sites, close the entry point, harden the server.
+- WordPress, Magento & OpenCart security: audits, malware cleanup, hardening.
+- Ecommerce development: Shopify, Magento, BigCommerce, OpenCart.
+- CI/CD pipeline design: GitHub Actions build/test/deploy on merge.
+- Security product frontends: firewall and IDS/IPS interfaces (Suricata).
+
+## Tech stack
+- AI: OpenAI, Claude, Gemini, Ollama, vLLM, RAG, embeddings, FastAPI
+- Frontend: React, Angular, Next.js, JavaScript, HTML5, CSS3
+- Backend: PHP, Laravel, CodeIgniter, Node.js, Python
+- Databases: MySQL, PostgreSQL, MongoDB, GraphQL, REST
+- Ecommerce/CMS: WordPress, Magento, Shopify, BigCommerce, OpenCart
+- DevOps & security: AWS, Docker, Linux, Nginx, GitHub Actions, OWASP, Suricata IDS/IPS
+
+## Selected projects
+- Tarsier — passive network asset intelligence from Suricata logs (Go). https://github.com/kapoordeepanshu/tarsier
+- M365 Security Dashboard — continuous Microsoft 365 posture monitoring (Laravel, Vue). https://github.com/kapoordeepanshu/m365-security-dashboard
+- DocsChatAI — self-hosted RAG chatbot for product documentation (Python, FastAPI, Ollama/vLLM). https://github.com/kapoordeepanshu/DocsChatAI
+
+## Contact
+- Email: deepanshukapoor756@gmail.com
+- GitHub: https://github.com/kapoordeepanshu
+- LinkedIn: https://www.linkedin.com/in/deepanshukapoor/
+- WhatsApp: https://wa.me/kapoordeepanshu
