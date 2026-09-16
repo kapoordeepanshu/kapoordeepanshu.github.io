@@ -1053,6 +1053,37 @@ button { font: inherit; cursor: pointer; }
 .service-card h3 { font-size: 1.1875rem; margin-top: 1.2rem; }
 .service-card p { margin-top: .7rem; color: var(--text-2); font-size: .9375rem; }
 
+/* ── hall of fame ──────────────────────────────────────────── */
+
+.hof-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1.25rem;
+}
+.hof-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.75rem 1.6rem;
+}
+.hof-card:hover { transform: translateY(-8px); border-color: var(--border-hi); box-shadow: var(--glow); }
+.hof-card .card-icon { font-size: 1.5rem; }
+.hof-card h3 { font-size: 1.1875rem; margin-top: 1.2rem; }
+.hof-card p { margin-top: .35rem; color: var(--text-3); font-size: .875rem; }
+.hof-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  margin-top: auto;
+  padding-top: 1.25rem;
+  font-size: .875rem;
+  font-weight: 500;
+  color: var(--text-2);
+  transition: color var(--t-fast) var(--ease), gap var(--t-fast) var(--ease);
+}
+.hof-link i { font-size: .6875rem; }
+.hof-link:hover { color: var(--secondary); gap: .65rem; }
+
 /* ── case studies ──────────────────────────────────────────── */
 
 .cases { display: grid; gap: 1.5rem; }

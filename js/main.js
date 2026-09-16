@@ -148,6 +148,7 @@
     { parent: '.skills-grid',       children: '.skill-cat' },
     { parent: '.services-grid',     children: '.service-card' },
     { parent: '.cases',             children: '.case-card' },
+    { parent: '.hof-grid',          children: '.hof-card' },
     { parent: '.trust-inner',       children: '.trust-item' },
     { parent: '.cta-band-inner',    children: null },
     { parent: '.contact-info',      children: '.info-card' },
