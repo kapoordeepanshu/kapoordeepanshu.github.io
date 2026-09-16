@@ -1220,7 +1220,7 @@ button { font: inherit; cursor: pointer; }
   padding: 1.25rem 1.3rem;
 }
 .info-card:hover { transform: translateX(6px); border-color: var(--border-hi); box-shadow: var(--glow); }
-.info-body { min-width: 0; }
+.info-body { flex: 1 1 auto; min-width: 0; }
 .info-body h3 { font-size: .8125rem; color: var(--text-3); font-weight: 500; letter-spacing: 0; }
 .info-body a, .info-plain {
   display: inline-flex;
@@ -1230,7 +1230,7 @@ button { font: inherit; cursor: pointer; }
   font-size: .9375rem;
   font-weight: 500;
   color: var(--text);
-  word-break: break-word;
+  overflow-wrap: anywhere;
   transition: color var(--t-fast) var(--ease);
 }
 .info-body a:hover { color: var(--secondary); }
@@ -1448,6 +1448,11 @@ button { font: inherit; cursor: pointer; }
 
 @media (max-width: 56rem) {
   .case-card { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 40rem) {
+  /* two columns leave the email ~100px wide — stack the cards instead */
+  .contact-info { grid-template-columns: minmax(0, 1fr); }
 }
 
 @media (max-width: 30rem) {
