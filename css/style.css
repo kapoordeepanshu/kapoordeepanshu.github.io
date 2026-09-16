@@ -998,11 +998,14 @@ button { font: inherit; cursor: pointer; }
 
 /* ── skills ────────────────────────────────────────────────── */
 
+/* eight groups: 4 → 2 → 1 columns, so every row is full */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1.25rem;
 }
+@media (max-width: 72rem) { .skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 40rem) { .skills-grid { grid-template-columns: minmax(0, 1fr); } }
 .skill-cat { padding: 1.75rem 1.6rem; }
 .skill-cat:hover { transform: translateY(-6px); border-color: var(--border-hi); box-shadow: var(--glow); }
 
@@ -1036,8 +1039,7 @@ button { font: inherit; cursor: pointer; }
 .skill-item i { font-size: 1.15rem; }
 .skill-item i:not([class*="devicon"]) { color: var(--secondary); font-size: 1rem; }
 
-/* seven groups — security spans the last row so the grid stays even */
-.skill-cat-featured { grid-column: 1 / -1; border-color: rgba(244, 63, 94, .3); }
+.skill-cat-featured { border-color: rgba(244, 63, 94, .3); }
 .skill-cat-featured:hover { box-shadow: 0 12px 40px rgba(244, 63, 94, .25); }
 .skill-cat-featured .skill-item i:not([class*="devicon"]) { color: var(--red); }
 .skill-cat-featured .skill-item:hover { border-color: var(--red); }
