@@ -128,7 +128,7 @@ change `style.css` or `main.js`, or returning visitors keep the old file.
 |---|---|
 | Email | `deepanshukapoor756@gmail.com` |
 | LinkedIn | `linkedin.com/in/deepanshukapoor` |
-| WhatsApp | `wa.me/919914268297` — the number is **not** printed on the page, only linked, to keep it away from scrapers |
+| WhatsApp | `wa.me/kapoordeepanshu` — links to the WhatsApp username, so the phone number never appears on the site |
 | GitHub | `github.com/kapoordeepanshu` |
 
 There's a floating WhatsApp button, bottom-left, that expands its label on hover.
